@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Institut Penerimaan Dalam Negeri | Dilla </title>
+</head>
+<style>
+  body {
+   background-color: whitesmoke;
+  }
+</style>
+
+<body>
+
+<h1> Penerimaan Taruna Institut Pemerintahan Dalam Negeri</h1>
+
+<img src="ipdn.jpg" alt="IPDN" width="250" height="250">
+    <header>
+        <h3>Formulir Pendaftaran Mahasiswa  IPDN</h3>
+    </header>
+    <form action="proses-pendaftaran.php" method="POST">
+        <fieldset>
+        <p>
+            <label for="nama">Nama: </label>
+            <input type="text" name="nama" placeholder="nama lengkap" />
+     
+        </p>
+        <p>
+            <label for="alamat">Alamat: </label>
+            <textarea name="alamat"></textarea>
+        </p>
+        <p>
+            <label for="jenis_kelamin">Jenis Kelamin: </label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
+        </p>
+        <p>
+            <label for="agama">Agama: </label>
+            <select name="agama">
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Hindu</option>
+                <option>Budha</option>
+                <option>Atheis</option>
+            </select>
+            <p/>
+            <label for="meeting-time">Tanggal Lahir:</label>
+
+<input type="datetime-local" id="meeting-time"
+       name="meeting-time" value="2000-01-12T19:30"
+       min="2018-06-07T00:00" max="2000-01-14T00:00">
+        </p>
+            <div>
+            </p>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email" name="Email">
+</div>
+			</p>
+
+<div>
+    <label for="pass">Password :</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+        </p>
+        <p>
+            <label for="sekolah_asal">Sekolah Asal: </label>
+            <input type="text" name="sekolah_asal" placeholder="nama sekolah" />
+        </p>
+        <p>
+        
+            <input type="submit" value="Daftar" name="daftar" />
+        </p>
+        <a href="https://spcp.ipdn.ac.id/2021/">About us</a>
+        </fieldset>
+    </form>
+    </body>
+</html>
