@@ -5,7 +5,7 @@
 </head>
 <style>
   body {
-   background-color: whitesmoke;
+   background-color: rgb(175, 140, 207);
   }
 </style>
 
@@ -13,7 +13,7 @@
 
 <h1> Penerimaan Taruna Institut Pemerintahan Dalam Negeri</h1>
 
-<img src="ipdn.jpg" alt="IPDN" width="250" height="250">
+<img src="ipdn.png.png" alt="IPDN" width="250" height="250">
     <header>
         <h3>Formulir Pendaftaran Mahasiswa  IPDN</h3>
     </header>
@@ -21,7 +21,7 @@
         <fieldset>
         <p>
             <label for="nama">Nama: </label>
-            <input type="text" name="nama" placeholder="nama lengkap" />
+            <input type="text" name="nama" placeholder="Nama Lengkap" />
      
         </p>
         <p>
@@ -29,9 +29,9 @@
             <textarea name="alamat"></textarea>
         </p>
         <p>
-            <label for="jenis_kelamin">Jenis Kelamin: </label>
-            <label><input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-laki</label>
-            <label><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
+            <label for="jenis_Kelamin">Jenis Kelamin: </label>
+            <label><input type="radio" name="Jenis_Kelamin" value="Pria"> Pria</label>
+            <label><input type="radio" name="Jenis_Kelamin" value="Wanita"> Wanita</label>
         </p>
         <p>
             <label for="agama">Agama: </label>
@@ -40,14 +40,29 @@
                 <option>Kristen</option>
                 <option>Hindu</option>
                 <option>Budha</option>
-                <option>Atheis</option>
+                <option>Konghucu</option>
+                <option>Lainnya</option>
             </select>
             <p/>
             <label for="meeting-time">Tanggal Lahir:</label>
-
-<input type="datetime-local" id="meeting-time"
+            <input type="datetime-local" id="meeting-time"
        name="meeting-time" value="2000-01-12T19:30"
-       min="2018-06-07T00:00" max="2000-01-14T00:00">
+       min="2000-06-07T00:00" max="2007-01-14T00:00">
+
+        </p>
+        <p>
+            <label for="Akun_Sosial_Media">Akun Sosial Media: </label>
+            <input type="text" name="Akun_Sosial_Media" placeholder="Akun Sosial Media" />
+        </p>
+        <p>
+
+        </p>
+        <p>
+            <label for="Sekolah_Asal">Sekolah Asal: </label>
+            <input type="text" name="Sekolah_Asal" placeholder="Nama Sekolah" />
+        </p>
+        <p>
+
         </p>
             <div>
             </p>
@@ -62,12 +77,8 @@
            minlength="8" required>
 </div>
 
-        </p>
-        <p>
-            <label for="sekolah_asal">Sekolah Asal: </label>
-            <input type="text" name="sekolah_asal" placeholder="nama sekolah" />
-        </p>
-        <p>
+
+
         
             <input type="submit" value="Daftar" name="daftar" />
         </p>
